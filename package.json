@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "dev": "npx parcel serve src/index.html",
+        "build": "NODE_ENV=production npx parcel build --public-url / src/index.html"
+    },
+    "dependencies": {
+        "parcel": "^2.8.0"
+    },
+    "devDependencies": {
+    }
+}
