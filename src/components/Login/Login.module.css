@@ -6,6 +6,8 @@
 
     height: 100vh;
     width: 100vw;
+
+    background-color: #dbedf6;
 }
 
 .block {
@@ -18,5 +20,5 @@
     width: 300px;
     border-radius: 18px;
 
-    background-color: #d8fef4;
+    background-color: #f4f8f9;
 }

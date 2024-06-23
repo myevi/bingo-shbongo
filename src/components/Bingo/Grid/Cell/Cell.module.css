@@ -1,0 +1,13 @@
+.cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(193, 245, 227);
+    border: 1px solid #aeacac;
+
+    text-align: center;
+}
