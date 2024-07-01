@@ -11,8 +11,18 @@ const root = createRoot(container);
 root.render(
     <BrowserRouter>
         <Routes>
-            <Route path="/bingo" element={<Bingo />} />
-            <Route path="/" element={<Login />} />
+            <Route
+                path="/"
+                element={<Login />}
+            />
+            <Route
+                path="/bingo"
+                element={<Bingo />}
+            />
+            <Route
+                path="/bingo/create"
+                element={<Bingo />}
+            />
         </Routes>
     </BrowserRouter>
 );

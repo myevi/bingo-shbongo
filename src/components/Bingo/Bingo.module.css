@@ -6,11 +6,3 @@
     height: 100vh;
     background-color: #dbedf6;
 }
-
-.bingoGrid {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: 500px;
-    background-color: #c8eaea;
-}

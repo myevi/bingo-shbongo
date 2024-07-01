@@ -2,3 +2,12 @@
     display: flex;
     flex-direction: row;
 }
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: #c8eaea;
+}

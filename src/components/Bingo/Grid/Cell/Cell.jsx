@@ -1,9 +1,9 @@
 import styles from './Cell.module.css';
 
-export default (({cell}) => {
+export default (({data, index}) => {
     return (
-        <div className={styles.cell} key={cell.index}>
-            {cell.text}
+        <div className={styles.cell} key={index}>
+            {data.text}
         </div>
     );
 });

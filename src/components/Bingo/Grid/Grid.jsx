@@ -44,17 +44,18 @@ export default (() => {
     ]);
 
     return (
-        <>
+        <div className={styles.grid}>
             {bingo.map((row, rowIndex) => {
                 return (
                     <div className={styles.row} key={rowIndex}>
-                        {row.map((cell, indexCell) => {
-                             return <Cell
-                                cell={cell} />
+                        {row.map((cellData, cellIndex) => {
+                            return <Cell
+                                data={cellData}
+                                key={cellIndex} />
                         })}
                     </div>
                 )
             })}
-        </>
+        </div>
     );
 })
